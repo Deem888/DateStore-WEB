@@ -1,0 +1,42 @@
+{% extends 'core/base.html' %} 
+
+{%block title%}
+YourDates
+{% endblock %}
+
+{% block content %}
+
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'CSS/aboutPage.css' %}">
+
+<div>
+    <section style="margin-top: 80px;">
+        space here
+    </section>
+</div>
+<div class="container">
+    <section class="about">    
+        <div class="about-img">
+          <img  calss="k"src="{% static 'images/about.png' %}">
+        </div> 
+        <div class="about-content">
+            <h2>Our Mission</h2>
+            <p>
+                At <strong class="name">Sukri&Kalas</strong>, our mission is simple: to provide you with the highest quality dates sourced directly from trusted growers and producers.
+                We believe that every date tells a story – from the sun-kissed palm groves of the Middle East to the lush oases of North Africa.
+                Through our curated selection,we aim to showcase the unique flavors, textures, and cultural significance of each variety. <a href="" class="read-more"> read more</a>
+            </p>
+        </div>
+    </section>
+    <div class="gallery">
+        <div class="box"  src="{% static 'imges/about.png'%}"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+{%endblock%}

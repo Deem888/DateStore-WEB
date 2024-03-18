@@ -1,0 +1,26 @@
+
+@font-face {
+    font-family: 'Kollektif-Bold';
+    src: url(../fonts/Kollektif-Bold.ttf);
+}
+@font-face {
+    font-family: 'Kollektif';
+    src: url(../fonts/Kollektif.ttf);
+}
+
+
+.navbar-brand {
+    font-family: 'kollektif-Bold' , 'Segoe UI', Tahoma;
+    padding-left: 25px; 
+}
+.navbar{
+    min-height: 90px; /* Adjust this value to change the height */
+    font-family:  'Kollektif-Bold' ,'Segoe UI', Tahoma;
+    font-size: 20px;
+    
+}
+
+*{
+    font-family: 'kollektif-Bold';
+}
+

@@ -6,3 +6,6 @@ def frontpage(request):
 
 def aboutPage(request):
     return render(request, 'core/aboutpage.html')
+
+def yourDates(request):
+    return render(request, 'core/yourDates.html')
