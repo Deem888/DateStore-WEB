@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    padding-top: 60px;
+}
+
+@media (max-width: 768px) {
+    body {
+      padding-top: 45px;
+    }
+
+    .gallery{
+        flex-direction: column ;
+    }
+}
+.container{
+    max-width: 1224px;
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+}
+.share button{
+    margin: 20px;
+    margin-left: 0;
+    width: 60px;
+    height: 50px;
+    border: 3px solid #2c2c2c;
+    background-color:white;
+    border-radius: 5px;
+    font-size: 25px;
+}
+.share .convert{
+    display:inline-block;
+    width: 85%;
+    height: 52px;
+    border: 3px solid #2c2c2c;
+    padding: 13px;
+    text-align: center;
+}
+
+.gallery{
+    display: flex;
+    gap:20px;
+}
+.column{
+    display: flex;
+    flex-direction: column ;
+    gap: 20px;
+}
+
+.imges img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+    border-color: blue;
+    border-style: solid; 
+    
+}
+
+.imges {
+    position: relative;
+    text-align: center;
+    overflow: hidden; 
+    
+   
+}
+
+.imges .bi{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+svg{
+    width: 30px;
+    height: 30px;
+}
+
+.imges .icon{
+    margin-bottom: 90px;
+}
+
+.imges:hover{
+    opacity: 0.6;
+    
+   
+}
+.imges:hover img{
+    filter: blur(2px);
+}
+.imges>.bi.fade  {
+    opacity: 0;
+}
+.imges:hover>.bi.fade {
+    opacity: 0.9;
+}
+
+
+
+
+
+
